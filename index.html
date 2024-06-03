@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header id="header">
+    <div class="notification">
+      <h1 class="title">Notifications</h1>
+      <span id="number-notifications"></span>
+    </div>
+    <a href="#" id="read-notifications">Mark all as read</a>
+  </header>
+  <main class="notification-section">
+    <section class="notifications new">
+      <div class="notification-info">
+      <img src="./assets/images/avatar-mark-webber.webp" class="author-img">
+      <div class="notification-content">
+        <p class="notification"><a href="#" class="author">Mark Webber</a> reacted to your recent post <a href="#" class="post">My first tournament today!</a></p>
+        <p class="timestamp">1m ago</p>
+      </div>        
+      </div>
+    </section>
+    <section class="notifications new">
+      <div class="notification-info">
+      <img src="./assets/images/avatar-angela-gray.webp" class="author-img">
+      <div class="notification-content">
+        <p class="notification"><a href="#" class="author">Angela Gray</a>  followed you</p>
+        <p class="timestamp">5m ago</p>
+      </div>        
+      </div>
+    </section>
+    <section class="notifications new">
+      <div class="notification-info">
+      <img src="./assets/images/avatar-jacob-thompson.webp" class="author-img">
+      <div class="notification-content">
+        <p class="notification"><a href="#" class="author">Jacob Thompson</a> has joined your group <a href="#" class="group">Chess Club</a></p>
+        <p class="timestamp">1 day ago</p>
+      </div>        
+      </div>
+    </section>
+    <section class="notifications new">
+      <div class="notification-info">
+      <img src="./assets/images/avatar-rizky-hasanuddin.webp" class="author-img">
+        <div class="notification-content">
+          <p class="notification"><a href="#" class="author">Rizky Hasanuddin</a> sent you a private message</p>
+          <p class="timestamp">5 days ago</p>
+        </div>        
+      </div>
+      <div class="message-container">
+        <a class="message" href="#">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+      I'm already having lots of fun and improving my game.</a>
+      </div>
+    </section>
+    <section class="notifications new">
+      <div class="notification-info">
+      <img src="./assets/images/avatar-kimberly-smith.webp" class="author-img">
+      <div class="notification-content">
+        <p class="notification"><a href="#" class="author">Kimberly Smith</a> commented on your picture</p>
+
+        <p class="timestamp">1 week ago</p>
+      </div>        
+      <a href="#"><img src="./assets/images/image-chess.webp" class="comment-pic"></a>        
+      </div>
+    </section>
+    <section class="notifications new">
+      <div class="notification-info">
+      <img src="./assets/images/avatar-nathan-peterson.webp" class="author-img">
+      <div class="notification-content">
+        <p class="notification"><a href="#" class="author">Nathan Peterson</a> reacted to your recent post <a href="#" class="post">5 end-game strategies to increase your win rate</a></p>
+        <p class="timestamp">2 weeks ago</p>
+      </div>        
+      </div>
+    </section>
+    <section class="notifications new">
+      <div class="notification-info">
+      <img src="./assets/images/avatar-anna-kim.webp" class="author-img">
+      <div class="notification-content">
+        <p class="notification"><a href="#" class="author">Anna Kim </a> left the group <a href="#" class="group">Chess Club</a></p>
+        <p class="timestamp">2 weeks ago</p>
+      </div>        
+      </div>
+    </section>
+  </main>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/jenn-acosta7/">Jenn Acosta</a>.
+  </div>
+  <script src="./app/app.js"></script>
+</body>
+</html>
